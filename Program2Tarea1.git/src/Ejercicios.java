@@ -18,6 +18,8 @@ public class Ejercicios
 		else if(lempiras<100) return "barato";
 		else if(lempiras<200) return "normal";
 		return "caro";
+		//compara el valor del lempira y retorna si  es gratis, barato y normal
+		
 	}
 	
 	//devuelve el factorial de "num"
@@ -26,18 +28,21 @@ public class Ejercicios
 		if(num==1)return 1;
         else num=num*factorial(num-1);
         return num;
+        //si numero es igual a 1 retorna 1, si no, calcula el factorial
 	}
 	
 	//devuelve el elemento de "arr" en la posicion "pos"
 	static int getElemento(int arr[],int pos)
 	{
 		return arr[pos];
+		//devuelve la posicion del arreglo
 	}
 	
 	//devuelve el elemento de "arr" en la posicion ["col"] ["fila"]
 	static int getElemento(int arr[][],int col,int fila)
 	{
 		return arr[col][fila];
+		//retorna el elemento de las coordenadas indicadas
 	}
 	
 	//devuelve el atributo "x" de "MiClase"
